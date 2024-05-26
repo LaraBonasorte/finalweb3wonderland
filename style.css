@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Estilos do Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 84px;
+  padding: 20px 25px;
+  background-color: #141332;
+}
+
+/* Estilos do Logo */
+
+.div_geral_header {
+  color: rgb(17, 24, 39);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.15008px;
+  line-height: 24px;
+  position: relative;
+  display: flex;
+  box-sizing: inherit;
+  align-items: center;
+  min-height: 56px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.15008px;
+  line-height: 24px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  box-sizing: inherit;
+  size: 50px;
+}
+
+.imagem_logo_header {
+  width: 70px;
+  height: auto;
+  display: inline-flex;
+  size: relative;
+}
+
+.nome_plataforma_logo {
+  margin-left: 10px;
+  display:inline-flex;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+  size: relative;
+}
+
+.lista_ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.item_um_lista_ul {
+  margin-right: auto;
+}
+
+/* estilos dos botões Call to Action */
+
+.botao_cta {
+  background-color: #453E4E;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* estilos da parte da introducao do site */
+
+.container_um {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 45px 75px 390px;
+  background-color: #141332;
+}
+
+.descricao {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.descricao h1 {
+  color: rgb(230, 30, 79);
+  font-family: Inter;
+  font-size: 56.6672px;
+  font-weight: 700;
+  line-height: 68.0006px;
+  text-align: left;
+  box-sizing: inherit;
+}
+
+.descricao p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18.6672px;
+  line-height: 28.0008px;
+  text-align: left;
+  box-sizing: inherit;
+}
+
+.botoes_descricao {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0px 32px 0px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.botao_explorar {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 0.9375rem;
+  line-height: 1.429;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  outline: 0px;
+  margin: 0px;
+  user-select: none;
+  appearance: none;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-transform: none;
+  padding: 8px 22px;
+  box-shadow: none;
+  border-radius: 8px;
+  min-width: 160px;
+  border: 1px solid rgb(235, 75,114);
+  background-color: rgb(235, 75, 114);
+}
+
+.botao_contato {
+  color: rgb(235, 75, 114);
+  font-family: Inter;
+  font-size: 0.9375rem;
+  line-height: 1.429;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  outline: 0px;
+  margin: 0px;
+  user-select: none;
+  appearance: none;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-transform: none;
+  padding: 7px 21px;
+  box-shadow: none;
+  border-radius: 8px;
+  min-width: 160px;
+  border: 1px solid rgb(235, 75, 114);
+  background-color: transparent;
+}
+
+.imagem_descricao {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-block-size: 568px;
+  padding: 5px 320px 75px 45px;
+}
+
+.imagem_descricao img {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+/* CODIGO CARDS CLICÁVEIS */
+
+.containers_cards_blockchains {
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: #141332;
+}
+
+.container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 16px);
+  max-width: calc(33.333% - 16px);
+  background-color: #453e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card_ethereum, .card_bsc, .card_ripple {
+  background-color: #e61e4f;
+}
+
+.imagem_container_cardzinhos_superiores img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CÓDIGO INDIVIDUAL DE CADA DESCRIÇÃO LONGA */
+
+.container_master_ethereum {
+  background-color: #141332;
+}
+
+.container_ethereum {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 16px;
+  gap: 70px;
+  position: relative;
+}
+
+.image_container_ethereum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 310px;
+}
+
+.image_container_ethereum img {
+  height: 360px;
+  width: 360px;
+  border-radius: 0;
+}
+
+.description_container_ethereum {
+  color: #ffffff;
+  font-family: Inter;
+  letter-spacing: 0.15008px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 370px;
+}
+
+.container_master_cardano {
+  background-color: #141332;
+}
+
+.container_cardano {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  padding: 110px 16px 32px 16px;
+  gap: 16px; /* Space between text and image */
+  position: relative;
+}
+
+.image_container_cardano {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-right: 355px; /* Adds right padding to position the image */
+}
+
+.image_container_cardano img {
+  height: 360px;
+  width: 360px;
+  border-radius: 0;
+}
+
+.description_container_cardano {
+  color: #ffffff;
+  font-family: Inter;
+  letter-spacing: 0.15008px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-right: 70px; /* Adds right padding for slight separation */
+  padding-left: 310px;
+}
+
+.container_master_bitcoin {
+  background-color: #141332;
+}
+
+.container_bitcoin {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  gap: 70px; /* Space between image and text */
+  position: relative;
+}
+
+.image_container_bitcoin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 310px;
+}
+
+.image_container_bitcoin img {
+  height: 360px;
+  width: 360px;
+  border-radius: 0;
+}
+
+.description_container_bitcoin {
+  color: #ffffff;
+  font-family: Inter;
+  letter-spacing: 0.15008px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 370px;
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 2.91rem;
+  color: #e61e4f;
+  text-align: justify;
+  line-height: 1.2;
+  font-weight: 700;
+  width: auto;
+  height: auto;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 22px;
+  line-height: 28.0008px;
+  text-align: justify;
+  box-sizing: inherit;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+p {
+  font-family: Inter;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.description_container_ethereum h2 {
+  margin: 0 0 16px 0;
+  font-family: Inter;
+  font-size: 2.91rem;
+  color: #e61e4f;
+  text-align: justify;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.description_container_ethereum h3 {
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+.description_container_ethereum p {
+  margin: 0;
+}
+
+.description_container_cardano h2 {
+  margin: 0 0 16px 0;
+  font-family: Inter;
+  font-size: 2.91rem;
+  color: #e61e4f;
+  text-align: justify;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.description_container_cardano h3 {
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+.description_container_cardano p {
+  margin: 0;
+}
+
+.description_container_bitcoin h2 {
+  margin: 0 0 16px 0;
+  font-family: Inter;
+  font-size: 2.91rem;
+  color: #e61e4f;
+  text-align: justify;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.description_container_bitcoin h3 {
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+.description_container_bitcoin p {
+  margin: 0;
+}
+
+/* CARTINHAS INDIVIDUAIS DE CADA BLOCKCHAIN */
+
+.titulo_learn_more {
+  background-color: #141332;
+}
+
+.titulo_learn_more h3 {
+  margin: 0 0 16px 0;
+  font-family: Inter;
+  font-size: 2.5rem;
+  color: #e61e4f;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+  background-color: #141332;
+  padding-bottom: 45px;
+  padding-top: 150px;
+}
+
+.container_cartinhas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 50px;
+}
+
+.cartinha {
+  background-color: #453E4E;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.conteudo_cartinha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icone_cartinha img {
+  width: 200px;
+  height: 200px;
+}
+
+.texto_cartinha h6 {
+  color: #E61E4F;
+  margin: 16px 0 8px 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.texto_cartinha p {
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* PENULTIMA SEÇÃO */
+
+.secao_penultima {
+  background-color: #E61E4F;
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+}
+
+.secao_penultima h2 {
+  color: #fff;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.secao_penultima p {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.linha_de_botoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  padding: 32px;
+  gap: 16px; /* Add gap between buttons */
+}
+
+.botao_primeiro_explorenow, .botao_Segundo_noscontate {
+  padding: 16px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.botao_primeiro_explorenow {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 0.9375rem;
+  line-height: 1.429;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  outline: 0px;
+  margin: 0px;
+  user-select: none;
+  appearance: none;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-transform: none;
+  padding: 8px 22px;
+  box-shadow: none;
+  border-radius: 8px;
+  min-width: 160px;
+  border: 1px solid #453E4E;
+  background-color: #453E4E;
+}
+
+.botao_segundo_noscontate {
+  color: #141332;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  line-height: 1.429;
+  vertical-align: middle;
+  position: relative;
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  outline: 0px;
+  margin: 0px;
+  user-select: none;
+  appearance: none;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-transform: none;
+  padding: 7px 21px;
+  box-shadow: none;
+  border-radius: 8px;
+  min-width: 160px;
+  border: 1px solid #141332;
+  background-color: transparent;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #141332;
+  color: #ffffff;
+}
+
+.secao_footer_web3wonderland {
+  flex: 1 1 23%;
+  margin: 16px 0;
+  padding-top: 25px;
+  padding-left: 120px;
+}
+
+.secao_footer_blockchains {
+  flex: 1 1 23%;
+  margin: 16px 0;
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-right: 16px;
+}
+
+.secao_footer_socialmedia {
+  flex: 1 1 23%;
+  margin: 16px 0;
+  padding-top: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.footer_logo img {
+  height: 80px;
+  width: 106px;
+  margin-left: 115px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+}
+
+.micro_descricao  {
+  margin: 5px 15px 30px 115px;
+}
+
+.rights_reservados {
+  margin: 0;
+  padding: 5px 0px 30px 115px;
+  font-size: 0.9rem;
+}
+
+.links_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_button {
+  background: none;
+  border: none;
+  color: #E61E4F;
+  text-align: left;
+  padding: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.footer-button:hover {
+  text-decoration: underline;
+}
+
+.secao_footer_socialmedia h6,
+.secao_footer_blockchains h6,
+.secao_footer_web3wonderland h6 {
+  font-size: 20px;
+  color: #fff;
+}
+
